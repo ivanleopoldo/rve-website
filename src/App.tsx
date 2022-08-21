@@ -5,7 +5,7 @@ import Preview from './components/Preview.js';
 function App(){
   return (
 		<div>
-			<Preview />
+			<Preview status={"in development"}/>
 		</div>
   );
 }
