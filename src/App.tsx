@@ -4,8 +4,8 @@ import Preview from './components/Preview.js';
 
 function App(){
   return (
-		<div className="bg-white flex items-center justify-center h-screen flex-col">
-			<Preview status={"coming soon..."}/>
+		<div className="bg-white flex items-center justify-center h-screen w-screen flex-col">
+			<Preview status={"in development"}/>
 		</div>
   );
 }
