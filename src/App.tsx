@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import Preview from './components/Preview.js';
-import BeNotified from './components/BeNotified.js';
 
 function App(){
   return (
