@@ -6,7 +6,7 @@ const Button = styled.button`
 	color: white;
 	padding: 5px 20px;
 	border-radius: 8px;
-	margin: 50px;
+	margin: 10px;
 `
 
 const BeNotified = () => {
