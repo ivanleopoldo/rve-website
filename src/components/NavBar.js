@@ -11,7 +11,7 @@ const WhiteHome = styled(Home)`
 `
 
 const WhitePerson = styled(PersonFill)`
-	color: white;
+	color:white;
 	&:hover {
 		color: #26292c;
 	}
@@ -23,12 +23,14 @@ const NavBar = () => {
 			<div className="border-2 border-neutral-800 rounded-full w-auto px-4 py-3">
 				<ul className="flex flex-row list-none font-white">
 					<li className="w-7 mr-2 ml-1">
-						<a href="https://youtube.com/">
+						<div>
 							<WhiteHome />
-						</a>
+						</div>
 					</li>
 					<li className="w-7 mr-1 ml-2">
-						<WhitePerson />	
+						<div>
+							<WhitePerson />	
+						</div>
 					</li>
 				</ul>
 			</div>
