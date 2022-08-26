@@ -31,10 +31,6 @@ const inactive = {
 	opacity: 0.25
 }
 
-const hide = {
-	opacity: 0
-}
-
 function App(){
 	const [index, setIndex] = useState(0);
 	const	[scroll, setScroll] = useState(false);
